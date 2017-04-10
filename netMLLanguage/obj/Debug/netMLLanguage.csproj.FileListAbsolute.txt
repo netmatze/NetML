@@ -1,0 +1,7 @@
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\netMLLanguage\bin\Debug\netMLLanguage.dll
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\netMLLanguage\bin\Debug\netMLLanguage.pdb
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\netMLLanguage\bin\Debug\NetML.dll
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\netMLLanguage\bin\Debug\NetML.pdb
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\netMLLanguage\obj\Debug\netMLLanguage.csprojResolveAssemblyReference.cache
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\netMLLanguage\obj\Debug\netMLLanguage.dll
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\netMLLanguage\obj\Debug\netMLLanguage.pdb

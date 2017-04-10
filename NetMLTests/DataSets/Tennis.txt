@@ -1,0 +1,9 @@
+﻿Outlook;Temperature;Windy;Play;
+Sunny;Low;true;false;
+Sunny;High;true;false;
+Sunny;High;false;false;
+Overcast;Low;true;true;
+Overcast;High;false;true;
+Overcast;Low;false;true;
+Rainy;Low;true;false;
+Rainy;Low;false;true;
