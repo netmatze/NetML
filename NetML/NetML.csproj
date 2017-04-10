@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F41DF4CD-24AE-48EE-9F9A-1C253CFC1BB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetML</RootNamespace>
+    <AssemblyName>NetML</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apriori\Apriori.cs" />
+    <Compile Include="Apriori\AssociationItem.cs" />
+    <Compile Include="Apriori\AssociationRules.cs" />
+    <Compile Include="Apriori\AprioriRecognizer.cs" />
+    <Compile Include="Apriori\Item.cs" />
+    <Compile Include="Association.cs" />
+    <Compile Include="Classification.cs" />
+    <Compile Include="Clustering.cs" />
+    <Compile Include="DecisionTree\Attribut.cs" />
+    <Compile Include="DecisionTree\AttributeTreeNode.cs" />
+    <Compile Include="DecisionTree\Classes.cs" />
+    <Compile Include="DecisionTree\ClassificationErrorSplitter.cs" />
+    <Compile Include="DecisionTree\DataSplitter.cs" />
+    <Compile Include="DecisionTree\DecisionTree.cs" />
+    <Compile Include="DecisionTree\DecisionTreeClassifier.cs" />
+    <Compile Include="DecisionTree\DecisionTreeDebugger.cs" />
+    <Compile Include="DecisionTree\FeatureClassCalculator.cs" />
+    <Compile Include="DecisionTree\GiniImpuritySplitter.cs" />
+    <Compile Include="DecisionTree\ItemsInClassCalculator.cs" />
+    <Compile Include="DecisionTree\MinEntropyCalculator.cs" />
+    <Compile Include="DecisionTree\ProbabilityCalculator.cs" />
+    <Compile Include="DecisionTree\ResultTreeNode.cs" />
+    <Compile Include="DecisionTree\ShannonEntropySplitter.cs" />
+    <Compile Include="DecisionTree\Splitter.cs" />
+    <Compile Include="DecisionTree\Tree.cs" />
+    <Compile Include="DecisionTree\TreeNode.cs" />
+    <Compile Include="Clustering\HierachicalClustering.cs" />
+    <Compile Include="Clustering\kMeansClustering.cs" />
+    <Compile Include="Clustering\kMetroidClustering.cs" />
+    <Compile Include="DeepLearning\Autoencoders\Autoencoder.cs" />
+    <Compile Include="DeepLearning\DeepLearning.cs" />
+    <Compile Include="kNearestNeighbors\EuclideMetric.cs" />
+    <Compile Include="kNearestNeighbors\IMetric.cs" />
+    <Compile Include="kNearestNeighbors\KNearestNeighbors.cs" />
+    <Compile Include="kNearestNeighbors\KNearestNeighborsClassifier.cs" />
+    <Compile Include="kNearestNeighbors\ManhattanMetric.cs" />
+    <Compile Include="kNearestNeighbors\MaximumMetric.cs" />
+    <Compile Include="kNearestNeighbors\MetricFactory.cs" />
+    <Compile Include="kNearestNeighbors\SquaredEuclideMetric.cs" />
+    <Compile Include="Mathematics\Matrix.cs" />
+    <Compile Include="Mathematics\MatrixCalculation.cs" />
+    <Compile Include="Mathematics\UnityMatrix.cs" />
+    <Compile Include="Mathematics\Vector.cs" />
+    <Compile Include="Mathematics\VectorCalculation.cs" />
+    <Compile Include="NaiveBayes\BayesKernel.cs" />
+    <Compile Include="NaiveBayes\GaussianBayesKernel.cs" />
+    <Compile Include="NaiveBayes\LinearBayesKernel.cs" />
+    <Compile Include="NaiveBayes\NaiveBayesClassifier.cs" />
+    <Compile Include="NeuronalNetwork\Backpropagation.cs" />
+    <Compile Include="NeuronalNetwork\CascadeFeedforwardNetwork.cs" />
+    <Compile Include="NeuronalNetwork\DynamicFeedforwardNetwork.cs" />
+    <Compile Include="NeuronalNetwork\FeedforwardLayer.cs" />
+    <Compile Include="NeuronalNetwork\FeedforwardNetwork.cs" />
+    <Compile Include="NeuronalNetwork\FeedforwardNetworkBuilder.cs" />
+    <Compile Include="NeuronalNetwork\FeedforwardNeuronalNetwork.cs" />
+    <Compile Include="NeuronalNetwork\FeedforwardNeuronalNetworkResult.cs" />
+    <Compile Include="NeuronalNetwork\IActivationFunction.cs" />
+    <Compile Include="NeuronalNetwork\LinearActivationFunction.cs" />
+    <Compile Include="NeuronalNetwork\NeuronalCounterMode.cs" />
+    <Compile Include="NeuronalNetwork\NeuronalNetwork.cs" />
+    <Compile Include="NeuronalNetwork\NeuronalNetworkClassifier.cs" />
+    <Compile Include="NeuronalNetwork\NeuronalNetworkMode.cs" />
+    <Compile Include="NeuronalNetwork\NeuronalNetworkModeFactory.cs" />
+    <Compile Include="NeuronalNetwork\NeuronCounter.cs" />
+    <Compile Include="NeuronalNetwork\SigmoidActivationFunction.cs" />
+    <Compile Include="NeuronalNetwork\TangensHyperbolicusActivationFunction.cs" />
+    <Compile Include="NeuronalNetwork\Train.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LinearRegression.cs" />
+    <Compile Include="RadialBasisFunctionNetwork\RadialBasisFunctionLayer.cs" />
+    <Compile Include="RadialBasisFunctionNetwork\RadialBasisFunctionNetwork.cs" />
+    <Compile Include="RadialBasisFunctionNetwork\RadialBasisFunctionNetworkClassifier.cs" />
+    <Compile Include="RadialBasisFunctionNetwork\RadialBasisFunctionNeuronalNetwork.cs" />
+    <Compile Include="RandomForest\BaggingAlgorithmus.cs" />
+    <Compile Include="RandomForest\BoostingAlgorithmus.cs" />
+    <Compile Include="RandomForest\RandomForestAlgorithm.cs" />
+    <Compile Include="RandomForest\RandomForestClassifier.cs" />
+    <Compile Include="Regression\IRegressionFunction.cs" />
+    <Compile Include="Regression\LinearCostFunction.cs" />
+    <Compile Include="Regression\LinearRegression.cs" />
+    <Compile Include="Regression\LogisticCostFunction.cs" />
+    <Compile Include="Regression\Regression.cs" />
+    <Compile Include="Regression\TanhCostFunction.cs" />
+    <Compile Include="SVM\DualPerceptron.cs" />
+    <Compile Include="SVM\DualPerceptronClassifier.cs" />
+    <Compile Include="SVM\GaussianKernel.cs" />
+    <Compile Include="SVM\Kernel.cs" />
+    <Compile Include="SVM\LinearKernel.cs" />
+    <Compile Include="SVM\LogitKernel.cs" />
+    <Compile Include="SVM\Perceptron.cs" />
+    <Compile Include="SVM\PolynomialKernel.cs" />
+    <Compile Include="SVM\SVM.cs" />
+    <Compile Include="SVM\SVMClassifier.cs" />
+    <Compile Include="SVM\TanhKernel.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,4 @@
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\NetML\bin\Release\NetML.dll
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\NetML\bin\Release\NetML.pdb
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\NetML\obj\Release\NetML.dll
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\NetML\obj\Release\NetML.pdb

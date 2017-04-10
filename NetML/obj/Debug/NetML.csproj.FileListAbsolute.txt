@@ -1,0 +1,5 @@
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\NetML\bin\Debug\NetML.dll
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\NetML\bin\Debug\NetML.pdb
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\NetML\obj\Debug\NetML.dll
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\NetML\obj\Debug\NetML.pdb
+C:\Users\mathiass\Source\Workspaces\SampleApplications\Projects\NetML\NetML\obj\Debug\NetML.csprojResolveAssemblyReference.cache
